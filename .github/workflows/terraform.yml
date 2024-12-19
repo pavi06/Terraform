@@ -35,6 +35,7 @@ jobs:
           echo "GITHUB_SHA: $GITHUB_SHA"
           echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
           echo "GITHUB_ACTOR: $GITHUB_ACTOR"
+          echo "---------------------------"
 
       - name: Terraform Init
         id: init
