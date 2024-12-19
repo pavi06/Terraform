@@ -88,5 +88,5 @@ jobs:
         run: exit 1
 
       - name: Terraform Apply
-        if: github.ref == 'refs/pull/4/merge'
+        # if: github.ref == 'refs/pull/4/merge'
         run: terraform apply -auto-approve -input=false tfplan
